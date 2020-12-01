@@ -1,0 +1,21 @@
+#!/bin/bash
+"Hello, world!"
+package.json
+{
+  "name": "my-tribute-package",
+  "version": "1.0.0",
+  "description":
+    "This is not the best package in the world, this is just a tribute.",
+  "main": "index.js",
+  "author": "Yarn Contributor",
+  "license": "MIT",
+  "scripts": {
+    "test": "scripts/test"
+  }
+}
+yarn test
+$ yarn test
+yarn test v0.15.1
+$ "./scripts/test"
+Hello, world!
+✨ Done in 0.17s.
